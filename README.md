@@ -120,7 +120,7 @@ The Euler approximation introduces an $\mathcal{O}(\sqrt{\Delta t})$ bias — on
 
 ## Section C — Prediction Challenge
 
-Given calibrated risk-neutral parameters $(\kappa^*, \theta^*, \sigma)$ and the observed 3M rate on each test day:
+Given calibrated risk-neutral parameters (κ\*, θ\*, σ) and the observed 3M rate on each test day:
 
 $$\hat{y}(\tau) = \frac{B(\tau)\,r_{3M} - \ln A(\tau)}{\tau}, \qquad \tau \in \{0.5,\ 0.75,\ 1.0,\ 2.0\} \text{ years}$$
 
